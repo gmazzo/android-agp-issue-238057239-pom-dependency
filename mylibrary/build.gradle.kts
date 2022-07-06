@@ -12,13 +12,6 @@ android {
         minSdk = 21
         targetSdk = 32
     }
-
-    publishing {
-        multipleVariants("all") {
-            allVariants()
-            withSourcesJar()
-        }
-    }
 }
 
 dependencies {
