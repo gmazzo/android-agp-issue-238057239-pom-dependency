@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.myapplication",
+    "module": "mylibrarypom",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "pomDependencies",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external"
+      },
+      "dependencies": [
+        {
+          "group": "com.example.myapplication",
+          "module": "mylibrary",
+          "version": {
+            "requires": "0.0.1"
+          }
+        }
+      ]
+    }
+  ]
+}
