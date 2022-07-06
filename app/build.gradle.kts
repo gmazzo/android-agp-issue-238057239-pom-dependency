@@ -17,8 +17,7 @@ android {
 
 dependencies {
     implementation("$group:mylibrarypom:$version")
-    //FIXME uncomment this to get the classes indexed
-    // implementation("$group:mylibrary:$version")
+    implementation("$group:mylibrary:$version")
 
     implementation("com.google.android.material:material:1.6.1")
 }
