@@ -1,6 +1,7 @@
 # android-pom-dependency-issue
 Sample project illustrating `AGP 7.1+` bug where `IntelliJ/AS` fails to index transitive dependencies
 when consuming a `POM` dependency
+https://issuetracker.google.com/issues/238057239
 
 ## Local repository
 The `repo` folder is a local maven repo that contains:
